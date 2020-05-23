@@ -3,8 +3,20 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyCdIShkkamYUVJ8NVxGQ2s9rYcv97XZyrw",
+    authDomain: "hospitalauth.firebaseapp.com",
+    databaseURL: "https://hospitalauth.firebaseio.com",
+    projectId: "hospitalauth",
+    storageBucket: "hospitalauth.appspot.com",
+    messagingSenderId: "597512133272",
+    appId: "1:597512133272:web:c94b4d0a40bb76d191ceed",
+    measurementId: "G-KTD2YETY73"
+  }
 };
+
+export const baseUrl = `http://localhost:3000/api/`;
 
 /*
  * For easier debugging in development mode, you can import the following file

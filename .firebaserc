@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "animal-guesser-5b3c9": {
+      "hosting": {
+        "HospitalApp": [
+          "animal-guesser-5b3c9"
+        ]
+      }
+    }
+  }
+}

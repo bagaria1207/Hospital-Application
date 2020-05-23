@@ -1,0 +1,17 @@
+<mat-toolbar color="primary" class="navbar">
+    <div><mat-icon>favorite </mat-icon>  Kusum Care</div>
+    <div>
+        <a routerLink="/home" mat-button>About</a>
+        <a href="#" mat-button>Logout</a>
+    </div>    
+</mat-toolbar>
+
+<div fxLayout="row" fxLayout="20px" class="pie-card">
+    <mat-card fxFlex="65">
+        <app-patient-list></app-patient-list>
+    </mat-card>
+    <mat-card fxFlex="35" fxLayoutAlign="center center">
+        <!-- Hello!!!! -->
+        <app-chart></app-chart>
+    </mat-card>
+</div>
