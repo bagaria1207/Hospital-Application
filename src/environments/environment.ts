@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyCdIShkkamYUVJ8NVxGQ2s9rYcv97XZyrw",
-    authDomain: "hospitalauth.firebaseapp.com",
-    databaseURL: "https://hospitalauth.firebaseio.com",
-    projectId: "hospitalauth",
-    storageBucket: "hospitalauth.appspot.com",
-    messagingSenderId: "597512133272",
-    appId: "1:597512133272:web:c94b4d0a40bb76d191ceed",
-    measurementId: "G-KTD2YETY73"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   }
 };
 
